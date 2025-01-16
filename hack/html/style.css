@@ -1,39 +1,98 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
-.filterbutton{
+
+.filterbutton {
     width: 20px;
     height: 15px;
 
 }
-.navbottom{
+
+.navbottom {
     margin-top: 5px;
     height: 70px;
-    
+    flex-wrap: wrap;
+
     display: flex;
     align-items: center;
     border-bottom: 1px lightgray solid;
+    border-top: 1px lightgray solid;
+    display: flex;
+    justify-content: space-between;
 }
-.baro{
+
+.fltrbtn {
+    margin-left: 20px;
+    padding: 5px;
+    width: 120px;
+    height: 50px;
+    border-radius: 70px;
+    border: 1px lightgray solid;
+    background-color: transparent;
+
+
+}
+
+.twoinp {
+    margin: 0px 15px;
+
+    width: 900px;
+    height: 50px;
+    border: 1px lightgray solid;
+    border-radius: 50px;
+    background-color: #F9F9F9;
+}
+
+.inptext {
+    border: none;
+    outline: none;
+    width: 640px;
+    background-color: transparent;
+}
+
+.filebtn {
+    border: 1px lightgray solid;
+    height: 35px;
+    border-radius: 25px;
+    border: none;
+    background-color: white;
+}
+
+.recm {
+
+    width: 260px;
+    border-radius: 30px;
+    border: 1px lightgray solid;
+    height: 50px;
+    background-color: transparent;
+}
+
+.baro {
     width: 90%;
 }
-.imagecard{
+
+.imagecard {
     width: 300px;
     height: 300px;
 }
-.imagecard p{
-  line-height: 8px;
-  margin-top: 10px;
+
+.imagecard p {
+    line-height: 8px;
+    margin-top: 10px;
+    border-radius: ;
 }
+
 .footer {
     height: 520px;
 }
-.footertext{
+
+.footertext {
     color: white;
 }
-.lastlogo{
-    position:relative;
+
+.lastlogo {
+    position: relative;
     bottom: 150px;
 }
