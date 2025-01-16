@@ -85,14 +85,28 @@
 }
 
 .footer {
-    height: 520px;
+    margin: 0px auto;
+    height: auto;
+    background-color: #191919;
+    max-width: 100%;
+
 }
 
-.footertext {
+.tfoot {
     color: white;
+    font-size: larger;
+    font-weight: 600;
 }
 
-.lastlogo {
-    position: relative;
-    bottom: 150px;
+.tfoot:hover{
+text-decoration: underline;
+/* color: red; */
 }
+.tfooto{
+    color: white;
+    font-size: 15px;
+}
+.tfooto:hover{
+    text-decoration: underline;
+    /* color: red; */
+    }
