@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 .filterbutton {
     width: 20px;
     height: 15px;
@@ -12,8 +13,10 @@
 
 .navbottom {
     margin-top: 5px;
-    height: 70px;
-    flex-wrap: wrap;
+    margin-bottom: 5px;
+    /* height: 70px; */
+    width: 100%;
+    /* flex-wrap: wrap; */
 
     display: flex;
     align-items: center;
@@ -24,9 +27,9 @@
 }
 
 .fltrbtn {
-    margin-left: 20px;
+    /* margin-left: 20px; */
     padding: 5px;
-    width: 120px;
+    /* width: 120px; */
     height: 50px;
     border-radius: 70px;
     border: 1px lightgray solid;
@@ -34,22 +37,31 @@
 
 
 }
+.fltrbtnbtn{
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
 
 .twoinp {
-    margin: 0px 15px;
+    /* margin: 0px 15px; */
 
-    width: 900px;
+    /* width: 500px; */
     height: 50px;
     border: 1px lightgray solid;
     border-radius: 50px;
     background-color: #F9F9F9;
+    display: flex;
+    justify-content: space-between;
 }
 
 .inptext {
     border: none;
     outline: none;
-    width: 640px;
+    width: 250px;
+
     background-color: transparent;
+
 }
 
 .filebtn {
@@ -62,11 +74,19 @@
 
 .recm {
 
-    width: 260px;
+    /* width: 260px; */
     border-radius: 30px;
     border: 1px lightgray solid;
     height: 50px;
     background-color: transparent;
+    display: flex;
+    align-items: center;justify-content: center;
+}
+.recmabc{
+    background-color: transparent;
+    border: none;
+    outline: none;
+
 }
 
 .baro {
@@ -88,7 +108,7 @@
     margin: 0px auto;
     height: auto;
     background-color: #191919;
-    max-width: 100%;
+    width: 100%;
 
 }
 
